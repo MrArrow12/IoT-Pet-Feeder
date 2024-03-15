@@ -51,7 +51,9 @@ There are 3 Major components in the platform
 	Blynk App = This allows you to create user interfaces for our projects using various widgets that it provides.
 	Blynk Server = Responsible for all the communications between smartphone and hardware. You can use Blynk Cloud or run your local private Blynk server. It is open-source, it can easily handle multiple devices that can range into hundreds of thousand, and can be launched on Rasphberry Pi.
 	Blynk Libraries – It is widely used for all hardware platforms, it enable communication with the server and process all incoming and outcoming commands.
-![image](https://github.com/MrArrow12/IoT-Pet-Feeder/assets/98644709/62fb7279-947c-4037-8e35-0e170a5f71df)
+
+![image](https://github.com/MrArrow12/IoT-Pet-Feeder/assets/98644709/32fc699a-1841-4044-9e2b-efb7ec791ff2)
+
 
 Above the picture, when a user press a Button in the Blynk app, the message will travel to the Blynk Server , then to Blynk Libraries which will incoming messages, and it will find its way to your hardware. It can also work in the reverse direction, and it happens instantly. 
 
