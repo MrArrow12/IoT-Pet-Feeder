@@ -4,9 +4,9 @@ The IoT Pet Feeder is capable of its automation by utilizing specific codes that
 The reasoning behind the usage of the Blynk application is specifically to provide portable control of the rotor and and the DS1302 RTC (Real-Time Clock) module located on the IoT Pet feeder in order to set up a specific time upon which the device itself would activate and perform its task by rotating the rotor and opening up a section of the provided food reserves, thus dispensing a portion of pet food into a food bowl located below it. 
 
 Components used:
-	Arduino UNO
-	Male-to-male Jumper cables
-	SG-90 Servo
+- Arduino UNO
+- Male-to-male Jumper cables
+- SG-90 Servo
 ![image](https://github.com/MrArrow12/IoT-Pet-Feeder/assets/98644709/ee990643-25dc-47d1-96ff-2da69af150b3)
 
 Codes used in project
@@ -47,10 +47,10 @@ void loop(){
 IoT Reference Architecture of Blynk
 
 Blynk is a platform designed for IOT. It has the ability to control hardware using remote. It can store data, visualize, and display sensor data.
-There are 3 Major components in the platform
-	Blynk App = This allows you to create user interfaces for our projects using various widgets that it provides.
-	Blynk Server = Responsible for all the communications between smartphone and hardware. You can use Blynk Cloud or run your local private Blynk server. It is open-source, it can easily handle multiple devices that can range into hundreds of thousand, and can be launched on Rasphberry Pi.
-	Blynk Libraries – It is widely used for all hardware platforms, it enable communication with the server and process all incoming and outcoming commands.
+There are 3 Major components in the platform:
+1.Blynk App = This allows you to create user interfaces for our projects using various widgets that it provides.
+2. Blynk Server = Responsible for all the communications between smartphone and hardware. You can use Blynk Cloud or run your local private Blynk server. It is open-source, it can easily handle multiple devices that can range into hundreds of thousand, and can be launched on Rasphberry Pi.
+3. Blynk Libraries – It is widely used for all hardware platforms, it enable communication with the server and process all incoming and outcoming commands.
 
 ![image](https://github.com/MrArrow12/IoT-Pet-Feeder/assets/98644709/32fc699a-1841-4044-9e2b-efb7ec791ff2)
 
@@ -58,11 +58,11 @@ There are 3 Major components in the platform
 Above the picture, when a user press a Button in the Blynk app, the message will travel to the Blynk Server , then to Blynk Libraries which will incoming messages, and it will find its way to your hardware. It can also work in the reverse direction, and it happens instantly. 
 
 Steps for connecting Arduino code to the Arduino UNO and through Blynk app.
-	First, we need to write a code on Arduino IDE in order to allow communication between the Arduino UNO device and the software Blynk app.
-	After that, we need to write down our authentication token to connect the Blynk application with the Arduino UNO. This can be done by sending the authentication token through e-mail or from within the Blynk application itself.
-	Once the code is compiled, the compiler will show messages to notify that the code is running. Otherwise, it will send an error message specifying details of the error.
-	Then, We plug in the USB cable to the Arduino UNO and connect it to a laptop through the USB port cable. The name of the port will be shown on the Arduino IDE specifying details on which port that it was plugged into.  (Arduino IDE -> Tools -> Port) 
-	Afterwards, we start the command prompt in order to start the connection between Arduino UNO and the Blynk Application. Then, write down the paths based on our script folder from the Arduino folder found in documents (usually) depending on where you install your script folder. In addition, write the instruction command  based on  the port given by Arduino IDE on your path.
-	Launch the Blynk application through a mobile phone based on our authentication code. Use the command interface to control the servo motor for verification.
+1. First, we need to write a code on Arduino IDE in order to allow communication between the Arduino UNO device and the software Blynk app.
+2. After that, we need to write down our authentication token to connect the Blynk application with the Arduino UNO. This can be done by sending the authentication token through e-mail or from within the Blynk application itself.
+3. Once the code is compiled, the compiler will show messages to notify that the code is running. Otherwise, it will send an error message specifying details of the error.
+4. Then, We plug in the USB cable to the Arduino UNO and connect it to a laptop through the USB port cable. The name of the port will be shown on the Arduino IDE specifying details on which port that it was plugged into.  (Arduino IDE -> Tools -> Port) 
+5. Afterwards, we start the command prompt in order to start the connection between Arduino UNO and the Blynk Application. Then, write down the paths based on our script folder from the Arduino folder found in documents (usually) depending on where you install your script folder. In addition, write the instruction command  based on  the port given by Arduino IDE on your path.
+6. Launch the Blynk application through a mobile phone based on our authentication code. Use the command interface to control the servo motor for verification.
 
 
