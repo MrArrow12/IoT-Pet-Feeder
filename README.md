@@ -11,6 +11,7 @@ Components used:
 ![image](https://github.com/MrArrow12/IoT-Pet-Feeder/assets/98644709/ee990643-25dc-47d1-96ff-2da69af150b3)
 
 Codes used in project
+
 #define BLYNK_PRINT SwSerial
 
 #include <SoftwareSerial.h>
